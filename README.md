@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>ethminer/README.md at master · ethereum-mining/ethminer</title>
+  <title>trueminer/README.md at master · truechain-mining/trueminer</title>
     <meta name="description" content="Ethereum miner with OpenCL, CUDA and stratum support - ethereum-mining/ethminer">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
