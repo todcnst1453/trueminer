@@ -1,29 +1,34 @@
+# ethminer
+
+> Truechain miner with CUDA support
+
+**Trueminer** is an Truehash GPU mining worker: with trueminer you can mine the coin which relies on an Truehash Proof of Work. This is the actively maintained version of trueminer. It implements the Truehash algorithm, and everyone can integrate it into the mainnet code or apply it as a miner client of the remote agent. See [FAQ](#faq) for more details.
+
+## Features
+
+* Nvidia CUDA mining
 
 
+## Table of Contents
+
+* [Requirement](#Requirements)
+* [Build](#build)
+    * [Continuous Integration and development builds](#continuous-integration-and-development-builds)
+    * [Building from source](#building-from-source)
+* [Maintainers & Authors](#maintainers--authors)
+* [F.A.Q.](#faq)
 
 
+## Requirements
 
+This project uses [CMake] package manager. I suggest using nvidia GPU GTX1080(GP104). When you have multiple GPUs, ensure you change deviceIdx properly and you should connect your monitor to the GPU which is not used for computing. 
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
-  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
-  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+### Common
 
+1. [CMake] >= 3.5
+2. [Git](https://git-scm.com/downloads)
+3. [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads) >= 10.0 
 
+### Windows
 
-  <link crossorigin="anonymous" media="all" integrity="sha512-lLo2nlsdl+bHLu6PGvC2j3wfP45RnK4wKQLiPnCDcuXfU38AiD+JCdMywnF3WbJC1jaxe3lAI6AM4uJuMFBLEw==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-08fc49d3bd2694c870ea23d0906f3610.css" />
-  <link crossorigin="anonymous" media="all" integrity="sha512-wcakLoRW5ptCEKQMjhBxtrRsYK4OD0NzQcIIbndtDI2jmyUubsL83f5xgoA7o3BRvUhKajqfVXi1f+o9PfVQyg==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-c0cac7946e0e09856cc59f28bdd6ca0c.css" />
-  
-  
-  
-  
-  
-
-  <meta name="viewport" content="width=device-width">
+1. [Visual Studio 2015](https://www.visualstudio.com/downloads/);
