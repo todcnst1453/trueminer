@@ -13,8 +13,6 @@
 
 * [Requirement](#Requirements)
 * [Build](#build)
-    * [Continuous Integration and development builds](#continuous-integration-and-development-builds)
-    * [Building from source](#building-from-source)
 * [Maintainers & Authors](#maintainers--authors)
 * [F.A.Q.](#faq)
 
@@ -31,4 +29,24 @@ This project uses [CMake] package manager. I suggest using nvidia GPU GTX1080(GP
 
 ### Windows
 
-1. [Visual Studio 2015](https://www.visualstudio.com/downloads/);
+[Visual Studio 2015](https://www.visualstudio.com/downloads/);
+
+## Instructions
+
+1. Make sure git submodules are up to date:
+
+2. Create a build directory:
+
+    ```shell
+    mkdir build
+    cd build
+    ```
+
+3. Configure the project with CMake. 
+
+    ```shell
+    cmake ..
+    ```
+
+4. Build the project.
+
