@@ -1,4 +1,4 @@
-# ethminer
+# trueminer
 
 > Truechain miner with CUDA support
 
