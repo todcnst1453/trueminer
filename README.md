@@ -2,7 +2,7 @@
 
 > Truechain miner with CUDA support
 
-**Trueminer** is an Truehash GPU mining worker: with trueminer you can mine the coin which relies on an Truehash Proof of Work. This is the actively maintained version of trueminer. It implements the Truehash algorithm, and everyone can integrate it into the mainnet code or apply it as a miner client of the remote agent. See [FAQ](#faq) for more details.
+**Trueminer** is a Truehash GPU mining worker: with trueminer you can mine the coin which relies on an Truehash Proof of Work. This is the actively maintained version of trueminer. It implements the Truehash algorithm, and everyone can integrate it into the mainnet code or apply it as a miner client of the remote agent. See [FAQ](#faq) for more details.
 
 ## Features
 
