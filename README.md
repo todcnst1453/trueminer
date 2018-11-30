@@ -23,7 +23,7 @@ This project uses [CMake] package manager. I suggest using nvidia GPU GTX1080(GP
 
 ### Common
 
-1. [CMake] >= 3.5
+1. [CMake] >= 3.8
 2. [Git](https://git-scm.com/downloads)
 3. [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads) >= 10.0 
 
@@ -50,3 +50,7 @@ This project uses [CMake] package manager. I suggest using nvidia GPU GTX1080(GP
 
 4. Build the project.
 
+## Maintainers & Authors
+
+CUDA code is highly dependent on your GPU hardware, you have to change some parameters for different architecture and chip. In most cases, you can change the number of blocks and threads to fillful your machine. 
+You can contact me by the email: todcnst1453@gmail.com, Thanks.
